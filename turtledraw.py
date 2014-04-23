@@ -5,7 +5,7 @@ import turtle
 n = 
 length = 100
 angle = 180 - (180 * (n - 2) / n)
-numbers = [ 1, 2, 3, 4, 5]
+numbers = range( 1,101)
 
 
 t = turtle.Turtle()
