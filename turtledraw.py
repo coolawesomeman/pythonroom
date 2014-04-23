@@ -11,9 +11,9 @@ colors = ["red", "blue" ,"green" ,"yellow" ,"pink", "magenta"]
 
 t = turtle.Turtle()
 
+for number in numbers:
+	for color in colors:
 
-for color in colors:
-	t.color(color)
-	t.forward(length)
-	t.left(angle)
-	
+	    t.color(color)
+	    t.forward(100)
+	    t.left(175)
