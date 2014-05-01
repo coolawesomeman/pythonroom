@@ -4,4 +4,4 @@ year = 1900
 total = 0
 
 while year < 2015:
-	total = total
+	total = total +1
